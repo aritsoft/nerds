@@ -150,7 +150,7 @@
 		);
 
 		// Change this to your theme text domain, used for internationalising strings
-		$theme_text_domain = 'adammp';
+		$theme_text_domain = 'nerds';
 
 
 		/*

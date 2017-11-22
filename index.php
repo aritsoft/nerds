@@ -87,8 +87,8 @@ get_header(); ?>
                         <div class="pagin">
                             <?php the_posts_pagination( array(
                         'mid_size' => 2,
-                        'prev_text' => __( '<i class="fa fa-long-arrow-left"></i>', 'adammp' ),
-                        'next_text' => __( '<i class="fa fa-long-arrow-right"></i>', 'adammp' ),
+                        'prev_text' => __( '<i class="fa fa-long-arrow-left"></i>', 'nerds' ),
+                        'next_text' => __( '<i class="fa fa-long-arrow-right"></i>', 'nerds' ),
                         'type'      => 'list',    
                     ) ); ?>
                         </div>

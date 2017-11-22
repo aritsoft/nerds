@@ -60,7 +60,7 @@ $adammp_url = esc_url( admin_url() );
                                 <div class="col-md-12">
                                     <div class="navbar-header page-scroll">
                                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                                                    <span class="sr-only"><?php esc_html_e( 'Toggle navigation', 'adammp' ) ; ?></span>
+                                                    <span class="sr-only"><?php esc_html_e( 'Toggle navigation', 'nerds' ) ; ?></span>
                                                     <span class="icon-bar"></span>
                                                     <span class="icon-bar"></span>
                                                     <span class="icon-bar"></span>
@@ -79,7 +79,7 @@ $adammp_url = esc_url( admin_url() );
 
                                         <?php else : ?>
                                         <a class="navbar-brand page-scroll" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                                    <img src="<?php echo esc_url( $adammp_logo ); ?>" alt="<?php echo esc_attr_e( 'Logo', 'adammp' ); ?>">
+                                    <img src="<?php echo esc_url( $adammp_logo ); ?>" alt="<?php echo esc_attr_e( 'Logo', 'nerds' ); ?>">
                                 </a>
                                         <?php endif; ?>
                                     </div>
@@ -97,7 +97,7 @@ $adammp_url = esc_url( admin_url() );
                                         } else { ?>
                                         <div class="no_menu">
                                             <a href="<?php echo esc_url( $adammp_url.'nav-menus.php' ); ?>">
-                                                <?php esc_html_e( 'Click here to add menu','adammp' );?>
+                                                <?php esc_html_e( 'Click here to add menu','nerds' );?>
                                             </a>
                                         </div>
                                         <?php } ?>

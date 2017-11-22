@@ -28,12 +28,12 @@ $adammp_blog_side = isset( adam_redux_variable()['blog_sidebar'] ) ? adam_redux_
         } elseif ( $adammp_blog_side == '1' ) { ?>
 
             <p class="hidden">
-                <?php esc_html_e( 'No Sidebar', 'adammp' ); ?> </p>
+                <?php esc_html_e( 'No Sidebar', 'nerds' ); ?> </p>
 
             <?php } else { ?>
 
             <p class="hidden">
-                <?php esc_html_e( 'No Sidebar', 'adammp' ); ?> </p>
+                <?php esc_html_e( 'No Sidebar', 'nerds' ); ?> </p>
 
             <?php } ?>
 
